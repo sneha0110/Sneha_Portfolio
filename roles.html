@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css">   
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Roles</title>
+    <style>
+        body{
+            background-color: black;
+        }
+ .swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.swiper-slide {
+  background-color: black;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+    </style>
+</head>
+<body>
+    <section class="py-5">
+        <div class="container">
+          <h2 class="text-center text-white font-weight-bold mb-4 text-uppercase">ROLES</h2>
+           <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="s7.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">SPL</h5>
+                <p class="card-text font-italic">I've been the school pupil leader of my school in 2017-18. After the long run of campaigne, I was crowned with a huge responsibilty. I lead a team of 18 Leaders. With all the ups and downs I managed to be an efficient Leader, who brought happiness to my fellow Rosarians and of course my team.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img height="250"  src="s2.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">EVENT ORGANISER</h5>
+                <p class="card-text font-italic">I've been a planner my whole life. Be it a formal event or a gala one, I'm always there pulling strings. It takes more then planning when actually bringing out something on stage. <br> Planning and Implementing are two things I'm versatile at.</p>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img height="400" width="300" src="s3.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">CHOREOGRAPHER</h5>
+                <p class="card-text font-italic">I've been a dancer for more than 7 years. I take pleasure to say I've moulded myself to the dancer I am today. During these years of moulding myself, I've leveled up my position as a choreographer. I have choreoed a lot of dances at my school. I've trained 4 teams for different competitions and we managed to win! </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+</section>
+      <!--testimonial endss-->
+       <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <!-- swiper done-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js">
+  </script>
+</body>
+</html>

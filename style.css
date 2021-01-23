@@ -1,0 +1,57 @@
+.me{
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: black;
+  background-image: url(SNEHA.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.hero {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: black;
+    background-image: url(intro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-tagline {
+  font-size: 3rem;
+}
+
+
+
+
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+ .dark-mode {
+  background-color: black;
+  color: white;
+}
+
+@keyframes animate {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+
+
+ @media (min-width: 320px) {
+  .hero-tagline {
+      font-size: 5rem;
+  }
+
+
+#footer-links-container ul{
+  padding-left: 30px !important;}
+}

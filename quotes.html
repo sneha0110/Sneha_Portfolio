@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+    <title>quotes</title>
+
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+body {
+  position: relative;
+  height: 100%;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: black;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 800px;
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+    </style>
+</head>
+<body>
+  
+    <section class="px-5 mt-5 col-12 col-md-8">
+        <div class="swiper-container mr-2 mt-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide px-5 mt-5" style="background-image:url(1.jpg)"></div>
+              <div class="swiper-slide px-5 mt-5" style="background-image:url(2.jpg)"></div>
+              <div class="swiper-slide px-5 mt-5" style="background-image:url(3.png)"></div>
+                <div class="swiper-slide px-5 mt-5" style="background-image:url(4.jpg)"></div>
+                <div class="swiper-slide px-5 mt-5" style="background-image:url(5.jpg)"></div>
+                <div class="swiper-slide px-5 mt-5" style="background-image:url(6.jpg)"></div>
+                <div class="swiper-slide px-5 mt-5" style="background-image:url(7.png)"></div>
+              
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          
+            <!-- Swiper JS -->
+            <script src="../package/swiper-bundle.min.js"></script>
+          
+            <!-- Initialize Swiper -->
+            <script>
+              var swiper = new Swiper('.swiper-container', {
+                effect: 'cube',
+                loop: true,
+                grabCursor: true,
+                cubeEffect: {
+                  shadow: true,
+                  slideShadows: true,
+                  shadowOffset: 20,
+                  shadowScale: 0.94,
+                },
+                pagination: {
+                  el: '.swiper-pagination',
+                },
+              });
+            </script>
+    </section>
+<!-- Swiper -->
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Firsts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+ 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+      
+    }
+
+    body {
+      
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: black;
+      color: rgba(240, 240, 240, 0.726);
+      background-size: auto;
+    }
+
+    .swiper-slide {
+      background-color: black;
+      text-align: center;
+      font-size: 18px;
+      background: black;
+      background-size: auto;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      background-size: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper d-md-flex">
+      <div class="swiper-slide">
+        <div class="container  col-md-4 ">
+          MY FIRST CROWN <br>
+          I was crowned with responsibility and duty in my 11th grade. <br>
+          Vested with the school badge and the moto in my heart, I carried forward with everything that I learnt being a leaader from my childhood. <br>
+           <img  height="100%" width="100%" src="crown.jpg" alt="">
+          </div>
+      </div> 
+      <div class="swiper-slide">
+        <div class="container  col-md-4 ">
+          MY FIRST DESIGN <br>
+          Being the first year in college, and knowlegde of a beginner in the feild of design, <br>
+          I managed to give a decent deisgn for our first project at Licet Pattarai, the Smart thermometer - Project Caliditas. <br>
+            <img height="100%" width="100%" src="caliditas5.JPG" alt="">
+           </div> 
+        </div>
+        <div class="swiper-slide">
+          <div class="container  col-md-4 ">
+            MY FIRST WEBSITE <br>
+            Being amature in the whole new world of coding, We learnt to build a website from the scratch.<br>
+            That gave me the spark of developing a website on my own. <br>
+            <a href=" https://sneha0110.github.io/mechking/"> https://sneha0110.github.io/mechking/</a> <br>
+              <img height="100%" width="100%" src="web.jpeg" alt="">
+             </div> 
+          </div>
+        <div class="swiper-slide"><div class="container  col-md-4 ">
+          MY FIRST STAGE <br>
+          I was is in my upper kindergarten when I first climbed the stage<br>
+          I stood in fromt of hundreds of students and parents when i said my first words on the stage <br>
+          From that day till date mic has been a great companian for me on stages. <br>
+            <img height="100%" width="100%" src="stage.jpg" alt="">
+         </div> 
+       </div>
+       <div class="swiper-slide">
+        <div class="container  col-md-4 ">
+          MY FIRST TALK <br>
+          Being in second year, and not a senior myself, I was given an opportunity to address my juniors. <br>
+          The 30 mins talk that i gave ignited the spirit of public speaker in me. <br>
+            <img height="100%" width="100%" src="mic.jpg" alt="">
+          </div>
+      </div>
+        <div class="swiper-slide">
+          <div class="container  col-md-4  text-white">
+            MY FIRST DANCE <br>
+            Being a person only behind the mic, once I stood in front of hundreds without a mic and also in a costume. <br>
+            It being my first dance I've given my 101% effort. We even bagged the price. That stage made me the dancer I am today. <br>
+            <img height="100%" width="100%" src="dance.jpg" alt="">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container  col-md-4 ">
+          MY FIRST CHOREO <br>
+          I was always an enthusiastic dancer.<br>
+          But I thought it was time for me to step up my level. I stayed back, but never stopped my spark for dance, I worked on my moves. <br>
+          I choreographed for a competition for the very first time. <br>
+          My team managed all the heats I gave them.. and its all for good!! We bagged the title!<br>
+            <img height="100%" width="100%" src="bf.jpg" alt="">
+         </div> 
+       </div>
+       
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="../package/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+      effect: 'coverflow',
+      loop: true,
+      grabCursor: true,
+      centeredSlides: true,
+      coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
